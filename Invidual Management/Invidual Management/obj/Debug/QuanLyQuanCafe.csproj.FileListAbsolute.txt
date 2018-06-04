@@ -1,0 +1,37 @@
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fTableMananger.resources
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+E:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fTableMananger.resources
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+F:\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fTableMananger.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fGeneral.resources

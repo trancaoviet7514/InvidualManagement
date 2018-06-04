@@ -1,0 +1,26 @@
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fGeneral.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fTableMananger.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\Restaurant management.csproj.GenerateResource.Cache
+E:\OneDrive - VNU-HCMUS\individual\project\QuanLyQuanCafe\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\Restaurant management.csprojResolveAssemblyReference.cache
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\Restaurant management.csprojResolveAssemblyReference.cache
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fGeneral.resources
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\Restaurant management.csproj.GenerateResource.Cache
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+E:\OneDrive - VNU-HCMUS\individual\project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.FormMain.resources
