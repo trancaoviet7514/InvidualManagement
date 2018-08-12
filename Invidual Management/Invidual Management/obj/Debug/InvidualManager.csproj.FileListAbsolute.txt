@@ -25,3 +25,17 @@ E:\OneDrive - VNU-HCMUS\Project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\bi
 E:\OneDrive - VNU-HCMUS\Project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\Noodle.pdb
 E:\OneDrive - VNU-HCMUS\Project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\Noodle.exe
 E:\OneDrive - VNU-HCMUS\Project\InvidualManager\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\Noodle.pdb
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\bin\Debug\Noodle.exe.config
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\Noodle.exe
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\Noodle.pdb
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\bin\Debug\Noodle.exe
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\bin\Debug\Noodle.pdb
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\InvidualManager.csprojResolveAssemblyReference.cache
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\QuanLyQuanCafe.fGeneral.resources
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\QuanLyQuanCafe.fLogin.resources
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\QuanLyQuanCafe.FormMain.resources
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\QuanLyQuanCafe.FormSetting.resources
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+E:\OneDrive - VNU-HCMUS\Project\InvidualManagement\Invidual Management\Invidual Management\obj\Debug\InvidualManager.csproj.GenerateResource.Cache

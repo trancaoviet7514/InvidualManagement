@@ -89,7 +89,7 @@
             this.txbLoginName.Location = new System.Drawing.Point(152, 14);
             this.txbLoginName.Name = "txbLoginName";
             this.txbLoginName.Size = new System.Drawing.Size(279, 20);
-            this.txbLoginName.TabIndex = 1;
+            this.txbLoginName.TabIndex = 0;
             this.txbLoginName.Text = "admin";
             // 
             // label1
@@ -100,7 +100,7 @@
             this.label1.Location = new System.Drawing.Point(3, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 19);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 6;
             this.label1.Text = "Tên đăng nhập:";
             // 
             // panel3
@@ -119,7 +119,7 @@
             this.txbPassWord.Location = new System.Drawing.Point(152, 14);
             this.txbPassWord.Name = "txbPassWord";
             this.txbPassWord.Size = new System.Drawing.Size(279, 20);
-            this.txbPassWord.TabIndex = 2;
+            this.txbPassWord.TabIndex = 1;
             this.txbPassWord.UseSystemPasswordChar = true;
             // 
             // label3
@@ -130,7 +130,7 @@
             this.label3.Location = new System.Drawing.Point(4, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 19);
-            this.label3.TabIndex = 0;
+            this.label3.TabIndex = 6;
             this.label3.Text = "Mật khẩu:";
             // 
             // btnLogin
@@ -141,7 +141,7 @@
             this.btnLogin.Location = new System.Drawing.Point(265, 100);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(94, 30);
-            this.btnLogin.TabIndex = 4;
+            this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -156,7 +156,7 @@
             this.btnExit.Location = new System.Drawing.Point(373, 100);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(67, 30);
-            this.btnExit.TabIndex = 5;
+            this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Thoát";
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExit.UseVisualStyleBackColor = true;

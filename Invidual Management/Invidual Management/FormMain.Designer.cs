@@ -32,6 +32,7 @@ namespace QuanLyQuanCafe
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.gbChinhSua = new System.Windows.Forms.GroupBox();
+            this.btnUpdate_ChiTiet = new System.Windows.Forms.Button();
             this.txbNoiDung = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.cbLoaiChiTieu_Input = new System.Windows.Forms.ComboBox();
@@ -39,8 +40,11 @@ namespace QuanLyQuanCafe
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.dtpkTime = new System.Windows.Forms.DateTimePicker();
             this.gbSearch_Chi = new System.Windows.Forms.GroupBox();
+            this.btnBieuDo = new System.Windows.Forms.Button();
             this.chbTimeGroupby = new System.Windows.Forms.CheckBox();
             this.chbNoiDung = new System.Windows.Forms.CheckBox();
             this.chbLoaiChiTieu = new System.Windows.Forms.CheckBox();
@@ -52,6 +56,7 @@ namespace QuanLyQuanCafe
             this.lbThongBaoKetQuaTimKiem = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
+            this.btnSeach = new System.Windows.Forms.Button();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.dtpkTo = new System.Windows.Forms.DateTimePicker();
@@ -62,17 +67,21 @@ namespace QuanLyQuanCafe
             this.txbTongTien = new System.Windows.Forms.TextBox();
             this.btnAddNote = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lbBieuDo = new System.Windows.Forms.Label();
             this.txbSoTienTrungBinh = new System.Windows.Forms.TextBox();
             this.lableSTTB = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.txbTongTien_Thu = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btnSeach_Thu = new System.Windows.Forms.Button();
             this.lbThongBaoTimKiem_Thu = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.dtpkTo_Thu = new System.Windows.Forms.DateTimePicker();
             this.dtpkFrom_Thu = new System.Windows.Forms.DateTimePicker();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btnXoa_Thu = new System.Windows.Forms.Button();
+            this.btnThem_Thu = new System.Windows.Forms.Button();
             this.txbNoiDung_Thu = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.txbSoTien_Thu = new System.Windows.Forms.TextBox();
@@ -91,6 +100,9 @@ namespace QuanLyQuanCafe
             this.panelNgay = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.dtpkTime_LichBieu = new System.Windows.Forms.DateTimePicker();
+            this.btnThangTruocDo = new System.Windows.Forms.Button();
+            this.btnThangTiepTheo = new System.Windows.Forms.Button();
+            this.btnThem_LichBieu = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gbThemNote = new System.Windows.Forms.GroupBox();
@@ -98,21 +110,9 @@ namespace QuanLyQuanCafe
             this.label4 = new System.Windows.Forms.Label();
             this.btnThemNote_gbThemNote = new System.Windows.Forms.Button();
             this.btnHuyGbThemNote = new System.Windows.Forms.Button();
+            this.btnThemNote = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbBieuDo = new System.Windows.Forms.Label();
-            this.btnBieuDo = new System.Windows.Forms.Button();
-            this.btnSeach = new System.Windows.Forms.Button();
-            this.btnUpdate_ChiTiet = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnSeach_Thu = new System.Windows.Forms.Button();
-            this.btnXoa_Thu = new System.Windows.Forms.Button();
-            this.btnThem_Thu = new System.Windows.Forms.Button();
-            this.btnThangTruocDo = new System.Windows.Forms.Button();
-            this.btnThangTiepTheo = new System.Windows.Forms.Button();
-            this.btnThem_LichBieu = new System.Windows.Forms.Button();
-            this.btnThemNote = new System.Windows.Forms.Button();
             this.gbChinhSua.SuspendLayout();
             this.gbSearch_Chi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvChiTiet)).BeginInit();
@@ -148,6 +148,22 @@ namespace QuanLyQuanCafe
             this.gbChinhSua.TabIndex = 21;
             this.gbChinhSua.TabStop = false;
             this.gbChinhSua.Text = "Chỉnh sửa";
+            // 
+            // btnUpdate_ChiTiet
+            // 
+            this.btnUpdate_ChiTiet.FlatAppearance.BorderSize = 0;
+            this.btnUpdate_ChiTiet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate_ChiTiet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate_ChiTiet.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate_ChiTiet.Image")));
+            this.btnUpdate_ChiTiet.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnUpdate_ChiTiet.Location = new System.Drawing.Point(194, 145);
+            this.btnUpdate_ChiTiet.Name = "btnUpdate_ChiTiet";
+            this.btnUpdate_ChiTiet.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnUpdate_ChiTiet.Size = new System.Drawing.Size(41, 37);
+            this.btnUpdate_ChiTiet.TabIndex = 64;
+            this.btnUpdate_ChiTiet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnUpdate_ChiTiet.UseVisualStyleBackColor = true;
+            this.btnUpdate_ChiTiet.Click += new System.EventHandler(this.btnUpdate_ChiTiet_Click);
             // 
             // txbNoiDung
             // 
@@ -237,6 +253,38 @@ namespace QuanLyQuanCafe
             this.label8.TabIndex = 3;
             this.label8.Text = "Nội dung:";
             // 
+            // btnDelete
+            // 
+            this.btnDelete.FlatAppearance.BorderSize = 0;
+            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
+            this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDelete.Location = new System.Drawing.Point(110, 145);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnDelete.Size = new System.Drawing.Size(38, 37);
+            this.btnDelete.TabIndex = 12;
+            this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
+            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdd.Location = new System.Drawing.Point(265, 145);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnAdd.Size = new System.Drawing.Size(38, 37);
+            this.btnAdd.TabIndex = 11;
+            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // dtpkTime
             // 
             this.dtpkTime.CustomFormat = "dd/MM/yyyy";
@@ -276,6 +324,20 @@ namespace QuanLyQuanCafe
             this.gbSearch_Chi.TabStop = false;
             this.gbSearch_Chi.Text = "Tìm kiếm";
             // 
+            // btnBieuDo
+            // 
+            this.btnBieuDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBieuDo.Image = ((System.Drawing.Image)(resources.GetObject("btnBieuDo.Image")));
+            this.btnBieuDo.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBieuDo.Location = new System.Drawing.Point(672, 74);
+            this.btnBieuDo.Name = "btnBieuDo";
+            this.btnBieuDo.Size = new System.Drawing.Size(125, 28);
+            this.btnBieuDo.TabIndex = 63;
+            this.btnBieuDo.Text = "Xem dưới dạng ";
+            this.btnBieuDo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBieuDo.UseVisualStyleBackColor = true;
+            this.btnBieuDo.Click += new System.EventHandler(this.btnBieuDo_Click);
+            // 
             // chbTimeGroupby
             // 
             this.chbTimeGroupby.AutoSize = true;
@@ -296,6 +358,7 @@ namespace QuanLyQuanCafe
             this.chbNoiDung.TabIndex = 61;
             this.chbNoiDung.Text = "Nội dung";
             this.chbNoiDung.UseVisualStyleBackColor = true;
+            this.chbNoiDung.CheckedChanged += new System.EventHandler(this.chbNoiDung_CheckedChanged);
             // 
             // chbLoaiChiTieu
             // 
@@ -306,6 +369,7 @@ namespace QuanLyQuanCafe
             this.chbLoaiChiTieu.TabIndex = 60;
             this.chbLoaiChiTieu.Text = "Loại chi tiêu";
             this.chbLoaiChiTieu.UseVisualStyleBackColor = true;
+            this.chbLoaiChiTieu.CheckedChanged += new System.EventHandler(this.chbLoaiChiTieu_CheckedChanged);
             // 
             // label3
             // 
@@ -342,6 +406,7 @@ namespace QuanLyQuanCafe
             this.chbNgayhomqua.TabIndex = 44;
             this.chbNgayhomqua.Text = "Ngày hôm qua";
             this.chbNgayhomqua.UseVisualStyleBackColor = true;
+            this.chbNgayhomqua.CheckedChanged += new System.EventHandler(this.chbNgayhomqua_CheckedChanged);
             this.chbNgayhomqua.CheckStateChanged += new System.EventHandler(this.chbNgayhomqua_CheckStateChanged);
             // 
             // chbNgayhomnay
@@ -363,6 +428,7 @@ namespace QuanLyQuanCafe
             this.txbNoiDung_Seach.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txbNoiDung_Seach.Size = new System.Drawing.Size(103, 22);
             this.txbNoiDung_Seach.TabIndex = 35;
+            this.txbNoiDung_Seach.TextChanged += new System.EventHandler(this.txbNoiDung_Seach_TextChanged);
             // 
             // lbThongBaoKetQuaTimKiem
             // 
@@ -395,6 +461,21 @@ namespace QuanLyQuanCafe
             this.label54.TabIndex = 31;
             this.label54.Text = "Loại chi tiêu:";
             // 
+            // btnSeach
+            // 
+            this.btnSeach.FlatAppearance.BorderSize = 0;
+            this.btnSeach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeach.Image = ((System.Drawing.Image)(resources.GetObject("btnSeach.Image")));
+            this.btnSeach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeach.Location = new System.Drawing.Point(684, 14);
+            this.btnSeach.Name = "btnSeach";
+            this.btnSeach.Size = new System.Drawing.Size(37, 36);
+            this.btnSeach.TabIndex = 17;
+            this.btnSeach.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSeach.UseVisualStyleBackColor = true;
+            this.btnSeach.Click += new System.EventHandler(this.btnSeach_Click);
+            // 
             // label52
             // 
             this.label52.AutoSize = true;
@@ -426,6 +507,7 @@ namespace QuanLyQuanCafe
             this.dtpkTo.Name = "dtpkTo";
             this.dtpkTo.Size = new System.Drawing.Size(89, 20);
             this.dtpkTo.TabIndex = 24;
+            this.dtpkTo.ValueChanged += new System.EventHandler(this.dtpkTo_ValueChanged);
             // 
             // cbLoaiChiTieu_Seach
             // 
@@ -447,6 +529,7 @@ namespace QuanLyQuanCafe
             this.cbLoaiChiTieu_Seach.Name = "cbLoaiChiTieu_Seach";
             this.cbLoaiChiTieu_Seach.Size = new System.Drawing.Size(107, 21);
             this.cbLoaiChiTieu_Seach.TabIndex = 27;
+            this.cbLoaiChiTieu_Seach.SelectedIndexChanged += new System.EventHandler(this.cbLoaiChiTieu_Seach_SelectedIndexChanged);
             // 
             // dtpkFrom
             // 
@@ -457,6 +540,7 @@ namespace QuanLyQuanCafe
             this.dtpkFrom.Name = "dtpkFrom";
             this.dtpkFrom.Size = new System.Drawing.Size(90, 20);
             this.dtpkFrom.TabIndex = 23;
+            this.dtpkFrom.ValueChanged += new System.EventHandler(this.dtpkFrom_ValueChanged);
             // 
             // dtgvChiTiet
             // 
@@ -522,6 +606,17 @@ namespace QuanLyQuanCafe
             this.tabPage1.Text = "Các khoản chi";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // lbBieuDo
+            // 
+            this.lbBieuDo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbBieuDo.Image = ((System.Drawing.Image)(resources.GetObject("lbBieuDo.Image")));
+            this.lbBieuDo.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lbBieuDo.Location = new System.Drawing.Point(231, 365);
+            this.lbBieuDo.Name = "lbBieuDo";
+            this.lbBieuDo.Size = new System.Drawing.Size(720, 350);
+            this.lbBieuDo.TabIndex = 27;
+            this.lbBieuDo.Visible = false;
+            // 
             // txbSoTienTrungBinh
             // 
             this.txbSoTienTrungBinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -583,6 +678,21 @@ namespace QuanLyQuanCafe
             this.groupBox3.TabIndex = 25;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Tìm kiếm";
+            // 
+            // btnSeach_Thu
+            // 
+            this.btnSeach_Thu.FlatAppearance.BorderSize = 0;
+            this.btnSeach_Thu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeach_Thu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeach_Thu.Image = ((System.Drawing.Image)(resources.GetObject("btnSeach_Thu.Image")));
+            this.btnSeach_Thu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeach_Thu.Location = new System.Drawing.Point(442, 30);
+            this.btnSeach_Thu.Name = "btnSeach_Thu";
+            this.btnSeach_Thu.Size = new System.Drawing.Size(42, 36);
+            this.btnSeach_Thu.TabIndex = 35;
+            this.btnSeach_Thu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSeach_Thu.UseVisualStyleBackColor = true;
+            this.btnSeach_Thu.Click += new System.EventHandler(this.btnSeach_Thu_Click);
             // 
             // lbThongBaoTimKiem_Thu
             // 
@@ -651,6 +761,38 @@ namespace QuanLyQuanCafe
             this.groupBox4.TabIndex = 26;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Chỉnh sửa";
+            // 
+            // btnXoa_Thu
+            // 
+            this.btnXoa_Thu.FlatAppearance.BorderSize = 0;
+            this.btnXoa_Thu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoa_Thu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa_Thu.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa_Thu.Image")));
+            this.btnXoa_Thu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXoa_Thu.Location = new System.Drawing.Point(214, 149);
+            this.btnXoa_Thu.Name = "btnXoa_Thu";
+            this.btnXoa_Thu.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnXoa_Thu.Size = new System.Drawing.Size(40, 35);
+            this.btnXoa_Thu.TabIndex = 22;
+            this.btnXoa_Thu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXoa_Thu.UseVisualStyleBackColor = true;
+            this.btnXoa_Thu.Click += new System.EventHandler(this.btnXoa_Thu_Click);
+            // 
+            // btnThem_Thu
+            // 
+            this.btnThem_Thu.FlatAppearance.BorderSize = 0;
+            this.btnThem_Thu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThem_Thu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem_Thu.Image = ((System.Drawing.Image)(resources.GetObject("btnThem_Thu.Image")));
+            this.btnThem_Thu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThem_Thu.Location = new System.Drawing.Point(260, 149);
+            this.btnThem_Thu.Name = "btnThem_Thu";
+            this.btnThem_Thu.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnThem_Thu.Size = new System.Drawing.Size(39, 35);
+            this.btnThem_Thu.TabIndex = 21;
+            this.btnThem_Thu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThem_Thu.UseVisualStyleBackColor = true;
+            this.btnThem_Thu.Click += new System.EventHandler(this.btnThem_Thu_Click);
             // 
             // txbNoiDung_Thu
             // 
@@ -847,6 +989,44 @@ namespace QuanLyQuanCafe
             this.dtpkTime_LichBieu.TabIndex = 25;
             this.dtpkTime_LichBieu.ValueChanged += new System.EventHandler(this.dtpkTime_LichBieu_ValueChanged);
             // 
+            // btnThangTruocDo
+            // 
+            this.btnThangTruocDo.FlatAppearance.BorderSize = 0;
+            this.btnThangTruocDo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThangTruocDo.Image = ((System.Drawing.Image)(resources.GetObject("btnThangTruocDo.Image")));
+            this.btnThangTruocDo.Location = new System.Drawing.Point(16, 31);
+            this.btnThangTruocDo.Name = "btnThangTruocDo";
+            this.btnThangTruocDo.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnThangTruocDo.Size = new System.Drawing.Size(21, 23);
+            this.btnThangTruocDo.TabIndex = 41;
+            this.btnThangTruocDo.UseVisualStyleBackColor = true;
+            this.btnThangTruocDo.Click += new System.EventHandler(this.btnThangTruocDo_Click);
+            // 
+            // btnThangTiepTheo
+            // 
+            this.btnThangTiepTheo.FlatAppearance.BorderSize = 0;
+            this.btnThangTiepTheo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThangTiepTheo.Image = ((System.Drawing.Image)(resources.GetObject("btnThangTiepTheo.Image")));
+            this.btnThangTiepTheo.Location = new System.Drawing.Point(343, 31);
+            this.btnThangTiepTheo.Name = "btnThangTiepTheo";
+            this.btnThangTiepTheo.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnThangTiepTheo.Size = new System.Drawing.Size(23, 23);
+            this.btnThangTiepTheo.TabIndex = 40;
+            this.btnThangTiepTheo.UseVisualStyleBackColor = true;
+            this.btnThangTiepTheo.Click += new System.EventHandler(this.btnThangTiepTheo_Click);
+            // 
+            // btnThem_LichBieu
+            // 
+            this.btnThem_LichBieu.FlatAppearance.BorderSize = 0;
+            this.btnThem_LichBieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThem_LichBieu.Image = ((System.Drawing.Image)(resources.GetObject("btnThem_LichBieu.Image")));
+            this.btnThem_LichBieu.Location = new System.Drawing.Point(777, 45);
+            this.btnThem_LichBieu.Name = "btnThem_LichBieu";
+            this.btnThem_LichBieu.Size = new System.Drawing.Size(38, 38);
+            this.btnThem_LichBieu.TabIndex = 37;
+            this.btnThem_LichBieu.UseVisualStyleBackColor = true;
+            this.btnThem_LichBieu.Click += new System.EventHandler(this.btnThem_LichBieu_Click);
+            // 
             // tabPage3
             // 
             this.tabPage3.AutoScroll = true;
@@ -925,6 +1105,18 @@ namespace QuanLyQuanCafe
             this.btnHuyGbThemNote.UseVisualStyleBackColor = true;
             this.btnHuyGbThemNote.Click += new System.EventHandler(this.btnHuyGbThemNote_Click);
             // 
+            // btnThemNote
+            // 
+            this.btnThemNote.FlatAppearance.BorderSize = 0;
+            this.btnThemNote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThemNote.Image = ((System.Drawing.Image)(resources.GetObject("btnThemNote.Image")));
+            this.btnThemNote.Location = new System.Drawing.Point(611, 326);
+            this.btnThemNote.Name = "btnThemNote";
+            this.btnThemNote.Size = new System.Drawing.Size(38, 37);
+            this.btnThemNote.TabIndex = 0;
+            this.btnThemNote.UseVisualStyleBackColor = true;
+            this.btnThemNote.Click += new System.EventHandler(this.btnThemNote_Click);
+            // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -945,191 +1137,6 @@ namespace QuanLyQuanCafe
             this.label1.TabIndex = 0;
             this.label1.Text = "Danh mục note";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbBieuDo
-            // 
-            this.lbBieuDo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbBieuDo.Image = ((System.Drawing.Image)(resources.GetObject("lbBieuDo.Image")));
-            this.lbBieuDo.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.lbBieuDo.Location = new System.Drawing.Point(231, 365);
-            this.lbBieuDo.Name = "lbBieuDo";
-            this.lbBieuDo.Size = new System.Drawing.Size(720, 350);
-            this.lbBieuDo.TabIndex = 27;
-            this.lbBieuDo.Visible = false;
-            // 
-            // btnBieuDo
-            // 
-            this.btnBieuDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBieuDo.Image = ((System.Drawing.Image)(resources.GetObject("btnBieuDo.Image")));
-            this.btnBieuDo.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBieuDo.Location = new System.Drawing.Point(672, 74);
-            this.btnBieuDo.Name = "btnBieuDo";
-            this.btnBieuDo.Size = new System.Drawing.Size(125, 28);
-            this.btnBieuDo.TabIndex = 63;
-            this.btnBieuDo.Text = "Xem dưới dạng ";
-            this.btnBieuDo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBieuDo.UseVisualStyleBackColor = true;
-            this.btnBieuDo.Click += new System.EventHandler(this.btnBieuDo_Click);
-            // 
-            // btnSeach
-            // 
-            this.btnSeach.FlatAppearance.BorderSize = 0;
-            this.btnSeach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeach.Image = ((System.Drawing.Image)(resources.GetObject("btnSeach.Image")));
-            this.btnSeach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeach.Location = new System.Drawing.Point(684, 14);
-            this.btnSeach.Name = "btnSeach";
-            this.btnSeach.Size = new System.Drawing.Size(37, 36);
-            this.btnSeach.TabIndex = 17;
-            this.btnSeach.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSeach.UseVisualStyleBackColor = true;
-            this.btnSeach.Click += new System.EventHandler(this.btnSeach_Click);
-            // 
-            // btnUpdate_ChiTiet
-            // 
-            this.btnUpdate_ChiTiet.FlatAppearance.BorderSize = 0;
-            this.btnUpdate_ChiTiet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate_ChiTiet.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate_ChiTiet.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate_ChiTiet.Image")));
-            this.btnUpdate_ChiTiet.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnUpdate_ChiTiet.Location = new System.Drawing.Point(194, 145);
-            this.btnUpdate_ChiTiet.Name = "btnUpdate_ChiTiet";
-            this.btnUpdate_ChiTiet.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnUpdate_ChiTiet.Size = new System.Drawing.Size(41, 37);
-            this.btnUpdate_ChiTiet.TabIndex = 64;
-            this.btnUpdate_ChiTiet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnUpdate_ChiTiet.UseVisualStyleBackColor = true;
-            this.btnUpdate_ChiTiet.Click += new System.EventHandler(this.btnUpdate_ChiTiet_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.FlatAppearance.BorderSize = 0;
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDelete.Location = new System.Drawing.Point(110, 145);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnDelete.Size = new System.Drawing.Size(38, 37);
-            this.btnDelete.TabIndex = 12;
-            this.btnDelete.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.FlatAppearance.BorderSize = 0;
-            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdd.Location = new System.Drawing.Point(265, 145);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnAdd.Size = new System.Drawing.Size(38, 37);
-            this.btnAdd.TabIndex = 11;
-            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // btnSeach_Thu
-            // 
-            this.btnSeach_Thu.FlatAppearance.BorderSize = 0;
-            this.btnSeach_Thu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeach_Thu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeach_Thu.Image = ((System.Drawing.Image)(resources.GetObject("btnSeach_Thu.Image")));
-            this.btnSeach_Thu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeach_Thu.Location = new System.Drawing.Point(442, 30);
-            this.btnSeach_Thu.Name = "btnSeach_Thu";
-            this.btnSeach_Thu.Size = new System.Drawing.Size(42, 36);
-            this.btnSeach_Thu.TabIndex = 35;
-            this.btnSeach_Thu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSeach_Thu.UseVisualStyleBackColor = true;
-            this.btnSeach_Thu.Click += new System.EventHandler(this.btnSeach_Thu_Click);
-            // 
-            // btnXoa_Thu
-            // 
-            this.btnXoa_Thu.FlatAppearance.BorderSize = 0;
-            this.btnXoa_Thu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoa_Thu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa_Thu.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa_Thu.Image")));
-            this.btnXoa_Thu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa_Thu.Location = new System.Drawing.Point(214, 149);
-            this.btnXoa_Thu.Name = "btnXoa_Thu";
-            this.btnXoa_Thu.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnXoa_Thu.Size = new System.Drawing.Size(40, 35);
-            this.btnXoa_Thu.TabIndex = 22;
-            this.btnXoa_Thu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXoa_Thu.UseVisualStyleBackColor = true;
-            this.btnXoa_Thu.Click += new System.EventHandler(this.btnXoa_Thu_Click);
-            // 
-            // btnThem_Thu
-            // 
-            this.btnThem_Thu.FlatAppearance.BorderSize = 0;
-            this.btnThem_Thu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThem_Thu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem_Thu.Image = ((System.Drawing.Image)(resources.GetObject("btnThem_Thu.Image")));
-            this.btnThem_Thu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem_Thu.Location = new System.Drawing.Point(260, 149);
-            this.btnThem_Thu.Name = "btnThem_Thu";
-            this.btnThem_Thu.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnThem_Thu.Size = new System.Drawing.Size(39, 35);
-            this.btnThem_Thu.TabIndex = 21;
-            this.btnThem_Thu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnThem_Thu.UseVisualStyleBackColor = true;
-            this.btnThem_Thu.Click += new System.EventHandler(this.btnThem_Thu_Click);
-            // 
-            // btnThangTruocDo
-            // 
-            this.btnThangTruocDo.FlatAppearance.BorderSize = 0;
-            this.btnThangTruocDo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThangTruocDo.Image = ((System.Drawing.Image)(resources.GetObject("btnThangTruocDo.Image")));
-            this.btnThangTruocDo.Location = new System.Drawing.Point(16, 31);
-            this.btnThangTruocDo.Name = "btnThangTruocDo";
-            this.btnThangTruocDo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnThangTruocDo.Size = new System.Drawing.Size(21, 23);
-            this.btnThangTruocDo.TabIndex = 41;
-            this.btnThangTruocDo.UseVisualStyleBackColor = true;
-            this.btnThangTruocDo.Click += new System.EventHandler(this.btnThangTruocDo_Click);
-            // 
-            // btnThangTiepTheo
-            // 
-            this.btnThangTiepTheo.FlatAppearance.BorderSize = 0;
-            this.btnThangTiepTheo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThangTiepTheo.Image = ((System.Drawing.Image)(resources.GetObject("btnThangTiepTheo.Image")));
-            this.btnThangTiepTheo.Location = new System.Drawing.Point(343, 31);
-            this.btnThangTiepTheo.Name = "btnThangTiepTheo";
-            this.btnThangTiepTheo.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnThangTiepTheo.Size = new System.Drawing.Size(23, 23);
-            this.btnThangTiepTheo.TabIndex = 40;
-            this.btnThangTiepTheo.UseVisualStyleBackColor = true;
-            this.btnThangTiepTheo.Click += new System.EventHandler(this.btnThangTiepTheo_Click);
-            // 
-            // btnThem_LichBieu
-            // 
-            this.btnThem_LichBieu.FlatAppearance.BorderSize = 0;
-            this.btnThem_LichBieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThem_LichBieu.Image = ((System.Drawing.Image)(resources.GetObject("btnThem_LichBieu.Image")));
-            this.btnThem_LichBieu.Location = new System.Drawing.Point(777, 45);
-            this.btnThem_LichBieu.Name = "btnThem_LichBieu";
-            this.btnThem_LichBieu.Size = new System.Drawing.Size(38, 38);
-            this.btnThem_LichBieu.TabIndex = 37;
-            this.btnThem_LichBieu.UseVisualStyleBackColor = true;
-            this.btnThem_LichBieu.Click += new System.EventHandler(this.btnThem_LichBieu_Click);
-            // 
-            // btnThemNote
-            // 
-            this.btnThemNote.FlatAppearance.BorderSize = 0;
-            this.btnThemNote.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThemNote.Image = ((System.Drawing.Image)(resources.GetObject("btnThemNote.Image")));
-            this.btnThemNote.Location = new System.Drawing.Point(611, 326);
-            this.btnThemNote.Name = "btnThemNote";
-            this.btnThemNote.Size = new System.Drawing.Size(38, 37);
-            this.btnThemNote.TabIndex = 0;
-            this.btnThemNote.UseVisualStyleBackColor = true;
-            this.btnThemNote.Click += new System.EventHandler(this.btnThemNote_Click);
             // 
             // FormMain
             // 

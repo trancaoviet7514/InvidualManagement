@@ -17,15 +17,14 @@ namespace QuanLyQuanCafe
     public partial class FormMain : Form
     {
         private Account loginAccount;
-        BindingSource bdChiTiet = new BindingSource();
-        BindingSource bdThu = new BindingSource();
+        
         string g_LoaiChiTieu;
         string g_NoiDung;
         string g_SoTien;
         string g_ThoiGian;
         string g_ThoiGian_Thang_LichBieu;
         string g_NoiDungLichBieuCuoiCung;
-        
+        BindingSource db;
 
         public Account LoginAccount
         {
@@ -37,10 +36,7 @@ namespace QuanLyQuanCafe
             InitializeComponent();
             
             cbLoaiChiTieu_Seach.SelectedIndex = 0;
-
-            dtgvChiTiet.DataSource = bdChiTiet;
-            dtgvThu.DataSource = bdThu;
-
+            dtgvThu.DataSource = db;
             loadDatePicker();
             chbNgayhomqua.Checked = true;
 
@@ -50,7 +46,7 @@ namespace QuanLyQuanCafe
             btnSeach_Thu_Click(new object(), new EventArgs());
             lbThongBaoTimKiem_Thu.Text = "";
             
-            addBinding();
+           
 
             loadIntoLichBieu();
             tabPage3.Hide();
@@ -181,10 +177,18 @@ namespace QuanLyQuanCafe
 
         private void addBinding()
         {
+            if (txbNoiDung_Thu.DataBindings.Count != 0)
+            {
+                txbNoiDung_Thu.DataBindings.RemoveAt(0);
+                txbSoTien_Thu.DataBindings.RemoveAt(0);
+                dtpkThoiGian_Thu.DataBindings.RemoveAt(0);
+            }
+            
             txbNoiDung_Thu.DataBindings.Add(new Binding("Text", dtgvThu.DataSource, "Nội dung", true, DataSourceUpdateMode.Never));
             txbSoTien_Thu.DataBindings.Add(new Binding("Text", dtgvThu.DataSource, "Số tiền", true, DataSourceUpdateMode.Never));
             dtpkThoiGian_Thu.DataBindings.Add(new Binding("Text", dtgvThu.DataSource, "Thời gian", true, DataSourceUpdateMode.Never));
             
+
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -265,7 +269,7 @@ namespace QuanLyQuanCafe
             Thread.CurrentThread.CurrentCulture = culture2;
 
             dtgvChiTiet.DataSource = dt;
-            //dtgvChiTiet.Rows[0].Selected = true;
+            
 
             for (int i = 0; i < dt.Columns.Count; i++)
             {
@@ -310,6 +314,7 @@ namespace QuanLyQuanCafe
                     loadDatePicker();
                 }
             }
+            btnSeach_Click(sender, e);
         }
 
         private void chbNgayhomnay_CheckedChanged(object sender, EventArgs e)
@@ -341,12 +346,12 @@ namespace QuanLyQuanCafe
                     loadDatePicker();
                 }
             }
+            btnSeach_Click(sender, e);
         }
-
-        
 
         private void btnSeach_Thu_Click(object sender, EventArgs e)
         {
+            
             dtgvThu.DataSource = 0;
             string query = string.Format("select Noidung as N'Nội dung', Sotien as N'Số tiền', Thoigian as N'Thời gian' from Thu where ThoiGian >= '{0}' and ThoiGian <= '{1}'", dtpkFrom_Thu.Value.ToShortDateString(), dtpkTo_Thu.Value.ToShortDateString());
             DataTable dt = DataProvider.Instance.ExecuteQuery(query);
@@ -366,6 +371,7 @@ namespace QuanLyQuanCafe
             Thread.CurrentThread.CurrentCulture = culture2;
             //bdThu.DataSource = dt;
             dtgvThu.DataSource = dt;
+            addBinding();
 
         }
 
@@ -400,6 +406,7 @@ namespace QuanLyQuanCafe
                 cbTimeGroupby.Enabled = false;
                 cbTimeGroupby.SelectedIndex = -1;
             }
+            btnSeach_Click(sender, e);
         }
 
         private void dtgvChiTiet_SelectionChanged(object sender, EventArgs e)
@@ -676,6 +683,41 @@ namespace QuanLyQuanCafe
             }
             query = string.Format("insert into GhiChu values (N'{0}')", txbNoiDung_GhiChu.Text);            
             DataProvider.Instance.ExecuteQuery(query);
+        }
+
+        private void chbNgayhomqua_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpkFrom_ValueChanged(object sender, EventArgs e)
+        {
+            btnSeach_Click(sender, e);
+        }
+
+        private void dtpkTo_ValueChanged(object sender, EventArgs e)
+        {
+            btnSeach_Click(sender, e);
+        }
+
+        private void cbLoaiChiTieu_Seach_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btnSeach_Click(sender, e);
+        }
+
+        private void chbLoaiChiTieu_CheckedChanged(object sender, EventArgs e)
+        {
+            btnSeach_Click(sender, e);
+        }
+
+        private void chbNoiDung_CheckedChanged(object sender, EventArgs e)
+        {
+            btnSeach_Click(sender, e);
+        }
+
+        private void txbNoiDung_Seach_TextChanged(object sender, EventArgs e)
+        {
+            btnSeach_Click(sender, e);
         }
     }
 }
